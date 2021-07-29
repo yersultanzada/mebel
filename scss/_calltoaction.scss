@@ -1,0 +1,56 @@
+#callToAction {
+  background-color: #2bc48a;
+  color: #fff;
+  .block-text {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+  }
+  .block-subtext {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #contactForm {
+    .form-row {
+      display: block;
+      .form-control {
+        border-radius: 0;
+        padding: 12px 24px;
+        height: 43px;
+        margin-bottom: 10px;
+        background-clip: border-box;
+        border: none;
+      }
+      button {
+        margin-top: 20px;
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .main-btn .main-naim {
+    margin-bottom: 0;
+  }
+}
+.copyright {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+  #callToAction {
+    .block-text {
+      font-size: 2rem;
+    }
+    #contactForm {
+      .form-row {
+        display: flex;
+        button {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

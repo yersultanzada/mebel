@@ -1,0 +1,137 @@
+section#about {
+  background-color: #d4d7dd;
+  .about-textBlock {
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    padding: 4rem;
+    height: 100%;
+    margin-right: -60px;
+    margin-top: 30px;
+    span {
+      color: #2bc48a;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
+section#services, section#works {
+  background-color: #D4D7DD;
+  .block-item {
+    background-color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    .item-img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin: auto;
+      background-color: #2bc48a;
+    }
+    .item-title {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+  }
+}
+section#works {
+  .works-item {
+    margin-bottom: 40px;
+    img {
+      width: 100%;
+    }
+    .work-desc {
+      margin-top: 20px;
+      line-height: 1.3;
+    }
+  }
+  .owl-carousel {
+    .owl-dots {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      .owl-dot span {
+        width: 7px;
+        height: 7px;
+        background-color: #fff;
+        margin: 3px;
+      }
+      .owl-dot.active span {
+        background-color: #2bc48a;
+      }
+    }
+  }
+}
+
+section#reviews {
+  .owl-carousel {
+    .owl-dot span {
+      width: 7px;
+      height: 7px;
+      background-color: #D6D6D6;
+      margin: 3px;
+    }
+    .owl-dot.active span {
+      background-color: #2bc48a;
+    }
+  }
+  .item {
+    text-align: center;
+    img {
+      width: 300px;
+      margin: auto;
+    }
+  }
+  .review-text {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .review-author {
+    font-style: italic;
+    margin-bottom: 10px;
+    span {
+      color: #6c757d;
+    }
+  }
+}
+section#thank-you {
+  background-color: #d4d7dd;
+  height: 90vh;
+  .caption {
+    background-color: #fff;
+    padding: 40px;
+    .caption-title {
+      font-size: 2rem;
+      line-height: 1.2;
+      text-align: center;
+    }
+    .caption-btn {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #2bc48a;
+    }
+  }
+}
+@media (max-width: 991px) {
+  section#about .about-textBlock {
+    margin: 0 0 20px 0;
+    height: auto;
+  }
+  section#reviews .review-text {
+    font-size: 1.2rem;
+  }
+  section#thank-you .caption .caption-title {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 575px) {
+  section#about .about-textBlock {
+    padding: 2rem;
+  }
+}
